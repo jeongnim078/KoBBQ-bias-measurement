@@ -1,3 +1,7 @@
+#main
+KoBBQ 샘플링을 위한 코드입니다. 해당 코드 실행에 필요한 추가 코드도 함께 업로드했습니다. (공유해주신 main.py 및 다른 파일이 윈도우 설정과 맞지 않아 일부 수정하여 수정한 코드를 공유드립니다.) .env 파일은 해당 코드에서도 정상 작동합니다.
+main.py 실행을 위해 api_runner.py, evaluator.py, prompt_builder.py, requirements.text 파일을 모두 다운로드 받아주시길 바랍니다.
+
 # KoBBQ-bias-measurement
 
 기계번역된 KoBBQ 408개의 샘플의 편향 측정을 위한 코드입니다
@@ -43,3 +47,5 @@ BBQ 영어 원문과 KoBBQ-ST의 1단계 번역효과(Translation effect) 측정
 KoBBQ-ST 문법 분석 후 편향 측정 코드입니다. 기존 KoBBQ-ST와 비교 분석도 함께 코드 내에서 수행합니다.
 
 [코드 결과]
+bias_comparison.xlsx (기존-문법 분석 비교 결과)
+bias_summary_grammar.xlsx (문법 분석 후 편향 측정 결과)
