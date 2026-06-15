@@ -1,0 +1,6 @@
+pandas
+tqdm
+python-dotenv
+google-genai
+transformers
+torch
